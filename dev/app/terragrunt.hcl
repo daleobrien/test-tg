@@ -1,7 +1,8 @@
 
 
+
 terraform {
-  source = "git::https://github.com/daleobrien/test-tf.git//vpc?ref=master"
+  source = "git::https://github.com/daleobrien/test-tf.git//app?ref=master"
 
   extra_arguments "custom_vars" {
     commands = [
@@ -19,7 +20,3 @@ terraform {
     ] 
   }
 }
-
-
-
-
